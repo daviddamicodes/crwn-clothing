@@ -10,12 +10,7 @@ import { selectCurrentUser } from '../../redux/user/user.selectors';
 
 import { ReactComponent as Logo } from '../../assets/crown.svg';
 
-import {
-  HeaderContainer,
-  LogoContainer,
-  OptionsContainer,
-  OptionLink
-} from './header.styles';
+import './header.styles.scss';
 
 const Header = ({ currentUser, hidden }) => (
   <HeaderContainer>
